@@ -1,9 +1,4 @@
-"""Billing Agent — cost calculation and payment processing.
 
-Reads:  ``state["doctor"]``, ``state["lab"]``, ``state["pharmacy"]``, ``state["insurance"]``
-Writes: ``state["billing"]``
-Tools:  calculate_costs, process_payment
-"""
 
 import json
 from typing import Any
