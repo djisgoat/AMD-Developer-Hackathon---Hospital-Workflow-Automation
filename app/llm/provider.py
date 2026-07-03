@@ -1,11 +1,4 @@
-"""Centralised LLM provider — every agent uses ``get_chat_model()``.
 
-No agent should instantiate ``ChatOpenAI`` directly.  This module
-loads credentials from ``.env`` and returns a configured chat model.
-
-Supports both direct OpenAI and OpenRouter by detecting which
-environment variable is set.
-"""
 
 import os
 
